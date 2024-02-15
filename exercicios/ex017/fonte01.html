@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+            /*
+            Medidas Absolutas
+            cm, mm, in, px, pt, pc            in= Polegadas
+
+            Medidas Relativas
+            em, ex, rem, vw, vh, %      em = altura relativa ao M maiusculo                 ex = o mesmo que M só que usando o X como base
+
+            16px geralmente = 1em
+            recomendação geral é usar em ou px
+            */
+
+            font-size: 1em;
+
+            /* lighter - normal - bold - bolder */
+            /* weight - width - height
+                peso - largura - altura
+            */
+        }
+
+        h1 {
+
+            /* shorthand font
+            font-style --> font- weight --> font-size --> font-family 
+            
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 3em;
+            font-weight: bolder;
+            font-style: italic;
+            */
+            font: italic bolder 3em 'Franklin Gothic Medium', 'Arial Narrow', 'Arial', sans-serif;
+        }
+
+        h2 {
+            font: bold 2em 'Arial';
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem iure, vitae recusandae aliquid laborum debitis esse id! Quis, laboriosam assumenda commodi eius asperiores accusamus, explicabo deleniti sapiente quos, quae perspiciatis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed repellat fugiat, velit maxime quam ullam rerum porro magnam aut necessitatibus modi, at accusantium cupiditate ratione quo. Fugiat, distinctio libero. Veniam.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, facilis perspiciatis in necessitatibus officiis asperiores vel eum possimus ipsa iste est, beatae recusandae assumenda! Repellendus est repudiandae in fugiat consequatur.</p>
+    <h2>Subtítulo do exemplo</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum impedit vel odio doloribus suscipit eum voluptatem dolor nobis maxime laudantium deleniti accusamus, ex maiores quo? Omnis dolor et voluptate quidem!</p>
+</body>
+</html>

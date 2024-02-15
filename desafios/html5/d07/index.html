@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="hen.icon">
+    <title>Desafio 7</title>
+</head>
+<body>
+    <h1>Imagem flexível</h1>
+    <p>Você está vendo a imagem completa? não? Experimente ampliar o tamanho da sua janela para aproveitar a melhor experiência 🤯</p>
+
+    <picture>
+        <source media="(max-width: 700px)" srcset="imagens/pordosol-p.png" type="image/png">
+        <source media="(max-width: 1000px)" srcset="imagens/pordosol-m.png" type="image/png">
+        <img src="imagens/pordosol-g.png" alt="Paisagem do por do sol">
+    </picture>
+</body>
+</html>
