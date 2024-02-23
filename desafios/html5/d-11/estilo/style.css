@@ -66,12 +66,15 @@ section.normal {
 section.imagem {
     background-color: rgb(31, 31, 31);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.596);
+    background-size: cover;
 }
 
 section.imagem > p {
     display: inline-block;
     padding: 5px;
     background-color: rgba(0, 0, 0, 0.507);
+    text-shadow: 1px 1px 0px black;
 }
 
 section#img01 {
