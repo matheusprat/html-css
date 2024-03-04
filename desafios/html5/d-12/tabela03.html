@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicios de Tabela</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+            font-weight: bold;
+        }
+
+        td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        th {
+            border: 1px solid black;
+            padding: 10px;
+            width: 130px;
+        }
+
+        td.nomes {
+            width: 150px;
+        }
+
+        td.filmes {
+            width: 90px;
+        }
+
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Grupo</th>
+            <th>Nomes</th>
+            <th colspan="3n">Filmes</th>
+        </tr>
+        <tr>
+            <th rowspan="3n">Mulheres</th>
+            <td class="nomes">Ana Maria Santos</td>
+            <td class="filmes">Alien</td>
+            <td class="filmes">Rambo</td>
+            <td class="filmes">Vingadores</td>
+        </tr>
+        <tr>
+            <td class="nomes">Beatriz Souza</td>
+            <td class="filmes">Hulk</td>
+            <td class="filmes">Inception</td>
+            <td class="filmes">Batman</td>
+        </tr>
+        <tr>
+            <td class="nomes">Cláudia Melo</td>
+            <td class="filmes">Oblivion</td>
+            <td class="filmes">Matrix</td>
+            <td class="filmes">Big Hero</td>
+        </tr>
+        <tr>
+            <th rowspan="3n">Homens</th>
+            <td class="nomes">Bruno Mendonça</td>
+            <td class="filmes">Intocáveis</td>
+            <td class="filmes">Amnésia</td>
+            <td class="filmes">Gladiador</td>
+        </tr>
+        <tr>
+            <td class="nomes">Daniel Lourenço</td>
+            <td class="filmes">Wall-E</td>
+            <td class="filmes">Oldboy</td>
+            <td class="filmes">Dangal</td>
+        </tr>
+        <tr>
+            <td class="nomes">Fabiano Mota</td>
+            <td class="filmes">Star Wars 5</td>
+            <td class="filmes">Taxi Driver</td>
+            <td class="filmes">Toy Story</td>
+        </tr>
+    </table>
+</body>
+</html>
